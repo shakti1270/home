@@ -1,0 +1,88 @@
+/* login.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* light gray background */
+  }
+  
+  .login-container {
+    max-width: 800px; /* make the container wider */
+    margin: 80px auto; /* add more margin to center the container */
+    padding: 50px; /* add more padding to make the container bigger */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex; /* make the container a flex container */
+    flex-direction: column; /* make the container a column */
+    align-items: center; /* center the content horizontally */
+    justify-content: center; /* center the content vertically */
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login-form label {
+    margin-bottom: 20px; /* add more margin to make the label bigger */
+    font-weight: bold;
+    font-size: 18px; /* make the label font bigger */
+    color: #333;
+  }
+  
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    width: 100%;
+    height: 60px; /* make the input fields taller */
+    margin-bottom: 30px; /* add more margin to make the input fields bigger */
+    padding: 20px; /* add more padding to make the input fields bigger */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 24px; /* make the input font bigger and bold */
+    font-weight: bold;
+    font-family: Arial, sans-serif; /* use a clean sans-serif font */
+    text-align: center; /* center the input text */
+  }
+  
+  .login-form input[type="text"]::placeholder,
+  .login-form input[type="password"]::placeholder {
+    font-size: 24px; /* make the placeholder font bigger */
+    font-weight: bold;
+    color: #999; /* make the placeholder text lighter */
+  }
+  
+  .login-form input[type="text"]:focus,
+  .login-form input[type="password"]:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form button[type="submit"] {
+    width: 100%;
+    height: 50px; /* make the button taller */
+    background-color: #337ab7;
+    color: #fff;
+    padding: 15px; /* add more padding to make the button bigger */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; /* make the button font bigger */
+    font-weight: bold;
+  }
+  
+  .login-form button[type="submit"]:hover {
+    background-color: #23527c;
+  }
+  
+  .login-form .forgot-password {
+    margin-top: 30px; /* add more margin to make the forgot password link bigger */
+    font-size: 16px; /* make the forgot password font bigger */
+    color: #666;
+    text-decoration: none;
+  }
+  
+  .login-form .forgot-password:hover {
+    color: #337ab7;
+  }
